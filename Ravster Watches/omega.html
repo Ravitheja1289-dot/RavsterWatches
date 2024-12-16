@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omega Seamaster</title>
+    <link rel="icon" href="https://img.freepik.com/premium-vector/black-white-logo-with-letter-r-it_853558-5372.jpg" type="image/icon type">
+    <style>
+        @font-face {
+            font-family: uber;
+            src: url(UberMove-Bold.ttf);
+            }
+        body{
+            background-color: black;
+            color: whitesmoke;
+            font-family: uber;
+            }
+        .mainhead{
+            color: whitesmoke;
+            float: left;
+            font-size: 350%;
+            margin-left: 440px;
+            margin-top: 50px;
+            
+            }
+        .backvideo{
+            height: 100%;
+            width: 100%;
+            float: left;
+            border-radius: 60px;
+            filter: brightness(60%);
+        } 
+        .header{
+            height: 200px;
+            background-color: black;
+            margin-top: 0px;
+        }
+        .menuimg{
+            float: left;
+            padding-left: 20px;
+            padding-top: 60px;
+            width: 5%;
+            height: 30%;
+        }
+        .quote{
+            text-align: center;
+            padding-top: 500px;
+            padding-left: 450px;
+            position: absolute;
+            color: white;
+            font-size: 250%;
+        }
+        .searchbar{
+            background-color: white;
+            color: black;
+            padding-left: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            float: right;
+            margin-right: 30px;
+            border-radius: 15px;
+            margin-top: 60px;
+            width: 300px;
+            font-family: uber;
+            font-size: 100%;
+        }
+        a.login{
+            padding-left: 50px;
+            padding-right: 50px;
+            color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            float: left;
+            margin-left: 120px;
+            margin-top: 190px;
+            border-radius: 15px;
+            padding: bottom 5px;
+            background-color: whitesmoke;
+            font-size: large;
+            font-family: uber;
+            text-decoration: none;
+            font-size: 150%;
+        }
+        a.login:hover{
+            text-decoration: underline;
+            border-color: black;
+        }
+        .warning{
+            float: left;
+            font-family: uber;
+            font-size: 220%;
+            color: white;
+            margin-top: 150px;
+            margin-left: 240px;
+        }
+        .collection{
+            font-family: uber;
+            color: white;
+            padding-left: 15px;
+            font-size: 400%;
+            margin-top: 1050px;
+            margin-bottom: 100px;
+        }
+        .pic{
+            padding-top: 50px;
+            height: 40%;
+            width: 40%;
+            padding-left: 50px;
+            float: left;
+        }
+        .pic:hover{
+            filter: brightness(60%);
+        }
+        .parahead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+        }
+        .para{
+            color: white;
+            margin-top: 0px;
+            margin-right: 30px;
+            margin-left: 600px;
+            font-family: uber;
+            float: right;
+        }
+        .rolex{
+            height: 700px;
+        }
+        .view{
+            float: left;
+            margin-left: 180px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .view:hover{
+            text-decoration: underline;
+        }
+        .cart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .cart:hover{
+            text-decoration: underline;
+        }
+        .hamimg{
+            float: right;
+            padding-right: 50px;
+            height: 40%;
+            width: 40%;
+            padding-top: 300px;
+            border-radius: 15px;
+        }
+        .hamimg:hover{
+            filter: brightness(60%);
+        }
+        .hamhead{
+            color: white;
+            padding-left: 100px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px;
+            padding-top: 170px;
+        }
+        .appic{
+            padding-top: 150px;
+            height: 7%;
+            width: 50%;
+            padding-left: 50px;
+            float: left;
+            border-radius: 15px;
+        }
+        .appic:hover{
+            filter: brightness(60%);
+        }
+        .aphead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+            padding-top: 100px;
+        }
+        .apview{
+            float: left;
+            margin-left: 150px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .apview:hover{
+            text-decoration: underline;
+        }
+        .apcart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .apcart:hover{
+            text-decoration: underline;
+        }
+        .omegaimg{
+            float: right;
+            padding-right: 50px;
+            height: 40%;
+            width: 40%;
+            padding-top: 210px;
+            border-radius: 15px;
+        }
+        .omegaimg:hover{
+            filter: brightness(60%);
+        }
+        .skyhead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+            padding-top: 150px;
+        }
+        .skyview{
+            float: left;
+            margin-left: 180px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .skyview:hover{
+            text-decoration: underline;
+        }
+        .skycart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .skycart:hover{
+            text-decoration: underline;
+        }
+        .skypic{
+            padding-top: 150px;
+            height: 40%;
+            width: 40%;
+            padding-left: 50px;
+            float: left;
+        }
+        .skypic:hover{
+            filter: brightness(60%);
+        }
+        .head{
+            font-family: uber;
+            color:white;
+            padding-left: 30px;
+            padding-top: 70px;
+            font-size: 300%;
+        }
+        .mainpara{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 100px;
+            margin-top: 800px;
+            font-size: 175%;
+
+        }
+        .buynow{
+            margin-top: 100px;
+            margin-bottom: 50px;
+            background-color: white;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            float: none;
+            text-decoration: none;
+            margin-left: 550px;
+            border-radius: 20px;
+            font-size: 150%;
+        }
+        .buynow:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="">
+            <img class="menuimg" src="https://i.pinimg.com/originals/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg" alt="Error loading Image">
+        </a>
+        <h1 class="mainhead">Ravster</h1>
+        <input type="search" placeholder="Search..." class="searchbar">
+    </div>
+    <div>
+        <center>
+        <h1 class="head">Omega Sea Master</h1>
+        </center>
+        <video autoplay muted loop class="backvideo">
+            <source src="omega.mp4">
+        </video>
+        <h1 class="quote">From INR 6,60,000</h1>
+    </div>
+    <div>
+        <p class="mainpara"> 
+            The Omega Seamaster is a line of mechanical, automatic, and quartz watches that has gained international acclaim for its blend of elegant design, sophisticated engineering, and diving utility. Since its debut in 1948, the Seamaster series has evolved significantly, boasting a wide array of models that cater to both professional divers and style-conscious individuals. Its legacy is enriched by a connection to cinematic history, most notably through its association with the James Bond film franchise, enhancing its appeal as a symbol of adventure and suavity.<br><br><br><br>
+
+Over the years, the Seamaster collection has showcased numerous technological innovations and design evolutions. The introduction of the Seamaster Professional Diver 300M in 1993 marked a significant milestone, with its distinctive helium-escape valve, unidirectional rotating bezel, and water resistance up to 300 meters, setting a new standard for diving watches. The materials used in the construction of Seamaster watches, including ceramics, titanium, and Omega's proprietary alloys like Sedna gold, underscore the brand's commitment to durability, precision, and aesthetic appeal.<br><br><br><br>
+
+Omega's dedication to precision is further exemplified by its Co-Axial escapement and METAS certification for many models within the Seamaster line. The Co-Axial escapement, introduced in 1999, represents a revolutionary step in watchmaking, reducing friction within the movement and thereby extending the maintenance intervals. The METAS certification, a rigorous standard for accuracy under magnetic fields of 15,000 gauss, attests to the brand's pursuit of precision in everyday conditions.<br><br><br><br>
+
+The Omega Seamaster, with its rich history, technological prowess, and iconic design, continues to be a preferred choice among naval professionals, diving enthusiasts, and luxury watch collectors. Its blend of functionality, durability, and elegance ensures that it remains not just a tool for the adventurous, but also a statement piece for the discerning.<br><br><br><br>
+        </p>
+    </div>
+    <a href="loginpage1.html" class="buynow">Buy Now</a>
+    <p style="margin-bottom: 50px;">i</p>
+</body>
+</html>

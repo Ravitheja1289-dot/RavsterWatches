@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolex SkyDweller</title>
+    <link rel="icon" href="https://img.freepik.com/premium-vector/black-white-logo-with-letter-r-it_853558-5372.jpg" type="image/icon type">
+    <style>
+        @font-face {
+            font-family: uber;
+            src: url(UberMove-Bold.ttf);
+            }
+        body{
+            background-color: black;
+            color: whitesmoke;
+            font-family: uber;
+            }
+        .mainhead{
+            color: whitesmoke;
+            float: left;
+            font-size: 350%;
+            margin-left: 440px;
+            margin-top: 50px;
+            
+            }
+        .backvideo{
+            height: 100%;
+            width: 100%;
+            float: left;
+            border-radius: 60px;
+            filter: brightness(60%);
+        } 
+        .header{
+            height: 200px;
+            background-color: black;
+            margin-top: 0px;
+        }
+        .menuimg{
+            float: left;
+            padding-left: 20px;
+            padding-top: 60px;
+            width: 5%;
+            height: 30%;
+        }
+        .quote{
+            text-align: center;
+            padding-top: 500px;
+            padding-left: 450px;
+            position: absolute;
+            color: white;
+            font-size: 250%;
+        }
+        .searchbar{
+            background-color: white;
+            color: black;
+            padding-left: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            float: right;
+            margin-right: 30px;
+            border-radius: 15px;
+            margin-top: 60px;
+            width: 300px;
+            font-family: uber;
+            font-size: 100%;
+        }
+        a.login{
+            padding-left: 50px;
+            padding-right: 50px;
+            color: black;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            float: left;
+            margin-left: 120px;
+            margin-top: 190px;
+            border-radius: 15px;
+            padding: bottom 5px;
+            background-color: whitesmoke;
+            font-size: large;
+            font-family: uber;
+            text-decoration: none;
+            font-size: 150%;
+        }
+        a.login:hover{
+            text-decoration: underline;
+            border-color: black;
+        }
+        .warning{
+            float: left;
+            font-family: uber;
+            font-size: 220%;
+            color: white;
+            margin-top: 150px;
+            margin-left: 240px;
+        }
+        .collection{
+            font-family: uber;
+            color: white;
+            padding-left: 15px;
+            font-size: 400%;
+            margin-top: 1050px;
+            margin-bottom: 100px;
+        }
+        .pic{
+            padding-top: 50px;
+            height: 40%;
+            width: 40%;
+            padding-left: 50px;
+            float: left;
+        }
+        .pic:hover{
+            filter: brightness(60%);
+        }
+        .parahead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+        }
+        .para{
+            color: white;
+            margin-top: 0px;
+            margin-right: 30px;
+            margin-left: 600px;
+            font-family: uber;
+            float: right;
+        }
+        .rolex{
+            height: 700px;
+        }
+        .view{
+            float: left;
+            margin-left: 180px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .view:hover{
+            text-decoration: underline;
+        }
+        .cart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .cart:hover{
+            text-decoration: underline;
+        }
+        .hamimg{
+            float: right;
+            padding-right: 50px;
+            height: 40%;
+            width: 40%;
+            padding-top: 300px;
+            border-radius: 15px;
+        }
+        .hamimg:hover{
+            filter: brightness(60%);
+        }
+        .hamhead{
+            color: white;
+            padding-left: 100px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px;
+            padding-top: 170px;
+        }
+        .appic{
+            padding-top: 150px;
+            height: 7%;
+            width: 50%;
+            padding-left: 50px;
+            float: left;
+            border-radius: 15px;
+        }
+        .appic:hover{
+            filter: brightness(60%);
+        }
+        .aphead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+            padding-top: 100px;
+        }
+        .apview{
+            float: left;
+            margin-left: 150px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .apview:hover{
+            text-decoration: underline;
+        }
+        .apcart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .apcart:hover{
+            text-decoration: underline;
+        }
+        .omegaimg{
+            float: right;
+            padding-right: 50px;
+            height: 40%;
+            width: 40%;
+            padding-top: 210px;
+            border-radius: 15px;
+        }
+        .omegaimg:hover{
+            filter: brightness(60%);
+        }
+        .skyhead{
+            color: white;
+            padding-left: 150px;
+            font-family: uber;
+            float: left;
+            font-size: 350%;
+            height: 100px ;
+            padding-top: 150px;
+        }
+        .skyview{
+            float: left;
+            margin-left: 180px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top:10px ;
+            padding-bottom: 10px;
+        }
+        .skyview:hover{
+            text-decoration: underline;
+        }
+        .skycart{
+            float: left;
+            margin-left: 50px;
+            border-radius: 10px;
+            color: black;
+            background-color: white;
+            text-decoration: none;
+            font-family: uber;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .skycart:hover{
+            text-decoration: underline;
+        }
+        .skypic{
+            padding-top: 150px;
+            height: 40%;
+            width: 40%;
+            padding-left: 50px;
+            float: left;
+        }
+        .skypic:hover{
+            filter: brightness(60%);
+        }
+        .head{
+            font-family: uber;
+            color:white;
+            padding-left: 30px;
+            padding-top: 70px;
+            font-size: 300%;
+        }
+        .mainpara{
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 100px;
+            margin-top: 800px;
+            font-size: 175%;
+
+        }
+        .buynow{
+            margin-top: 100px;
+            margin-bottom: 50px;
+            background-color: white;
+            color: black;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            float: none;
+            text-decoration: none;
+            margin-left: 550px;
+            border-radius: 20px;
+            font-size: 150%;
+        }
+        .buynow:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="">
+            <img class="menuimg" src="https://i.pinimg.com/originals/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg" alt="Error loading Image">
+        </a>
+        <h1 class="mainhead">Ravster</h1>
+        <input type="search" placeholder="Search..." class="searchbar">
+    </div>
+    <div>
+        <center>
+        <h1 class="head">Rolex SkyDweller</h1>
+        </center>
+        <video autoplay muted loop class="backvideo">
+            <source src="rolex skydweller.webm">
+        </video>
+        <h1 class="quote">From INR 14,35,000</h1>
+    </div>
+    <div>
+        <p class="mainpara"> 
+            The Rolex Sky-Dweller stands out as a masterpiece of technical prowess and luxury, seamlessly blending sophisticated design with advanced functionality. Introduced in 2012, it quickly established itself as one of the most complex and innovative offerings in the Rolex portfolio, designed for the global traveler in mind. The Sky-Dweller's most notable feature is its annual calendar, ingeniously integrated with a second time zone display, making it an ideal timepiece for those who frequently traverse the globe.<br><br><br><br>
+
+This watch is characterized by its distinctive aesthetic, featuring a 42mm Oyster case that is both elegant and robust, suitable for any occasion, from formal events to casual outings. The fluted Ring Command bezel is not just a design element but also a functional interface that controls the watch's set of complex functions, including the setting of the local time, reference time, and the date. This intuitive interaction between the bezel, movement, and crown underscores Rolex's commitment to user-friendly sophistication.<br><br><br><br>
+
+At the heart of the Sky-Dweller beats the Rolex Calibre 9001, a self-winding mechanical movement entirely developed and manufactured by Rolex. This caliber is a testament to Rolex's mastery in watchmaking, featuring a Saros annual calendar mechanism inspired by an astronomical phenomenon. The mechanism automatically differentiates between 30-day and 31-day months, requiring adjustment only once a year at the end of February. Moreover, the watch's dual time zone function is displayed through an off-center disc on the dial, offering at-a-glance legibility for the wearer's reference time.<br><br><br><br>
+
+Materially, the Sky-Dweller is available in a variety of options including Oystersteel, yellow gold, white gold, and Rolex's signature Rolesor combination, catering to diverse tastes and preferences. The dial comes in several color options, enhancing its visual appeal and making it adaptable to different styles. The watch is finished with a sturdy Oyster bracelet or a luxurious leather strap, ensuring comfort and durability.<br><br><br><br>
+
+In summary, the Rolex Sky-Dweller is not just a timepiece; it's a statement of achievement and an indispensable tool for the modern international traveler. It marries Rolex's unmatched craftsmanship with practical functionality, embodying a spirit of adventure and precision. Whether it's the groundbreaking annual calendar, the ingenious dual time zone display, or the sheer luxury of its execution, the Sky-Dweller continues to be a symbol of sophistication and a pinnacle of horological innovation.<br><br><br><br>
+        </p>
+    </div>
+    <a href="loginpage1.html" class="buynow">Buy Now</a>
+    <p style="margin-bottom: 50px;">i</p>
+</body>
+</html>
